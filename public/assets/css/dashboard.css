@@ -1,0 +1,597 @@
+/*----------------------------*/
+/* Color Verde de Coanime.net */
+/*
+#a0cd57  #ad5 
+yellowgreen 
+hsl(82,54,57) 
+rgb(160,205,87)
+*/
+@font-face {
+  font-family: 'icomoon';
+  src:url('../fonts/icomoon.eot');
+  src:url('../fonts/icomoon.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.woff') format('woff'),
+    url('../fonts/icomoon.ttf') format('truetype'),
+    url('../fonts/icomoon.svg#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+a, a:hover,a:focus,a:visited
+{
+  color: #f90;
+  text-decoration: none;
+}
+a.btn, a.btn:hover,a.btn:focus,a.btn:visited
+{
+  color: #fff;
+  text-decoration: none;
+}
+body
+{
+  background: #000000 url(http://www.coanime.net/images/bg_ca.jpg) no-repeat top center fixed;
+  color: #4c4c4c;
+  font-family: Arial;
+  font-size: 16px;
+  padding-top: 70px;
+}
+footer
+{
+  background: #878787;
+  color: white;
+  padding: 1em;
+  text-align: center;
+}
+footer #powerby:after
+{
+  -webkit-font-smoothing: antialiased;
+  content:" \e0ff";
+  font-family: 'icomoon';
+  font-size: 1em;
+  opacity: 1;
+}
+header
+{
+  /*background: url(/../assets/img/banners/banner.jpg) no-repeat center;
+  color: white;
+  margin: 0;
+  padding: 0.5em;*/
+}
+header figure, header h1
+{
+  display: inline-block;
+  vertical-align: top;
+}
+header h1
+{
+  font-size: 20px;
+  font-weight: normal;
+  margin: 1em 0 0 1em;
+  width: 60%;
+}
+header #user_avatar
+{
+  border-radius: 0.3em;
+  float: right;
+  margin: 0.3em 0.7em 0 0;
+  width: 49%;
+}
+header #user_avatar figcaption
+{
+  background: #f90;
+  border-bottom-right-radius: 0.3em;
+  border-top-right-radius: 0.3em;
+  float: right;
+  height: 60px;
+  padding: 0 2px;
+}
+header #user_avatar a img
+{
+  border-bottom-left-radius: 0.3em;
+  border-top-left-radius: 0.3em;
+  float: left;
+  width: 60px;
+}
+header #user_avatar #user_options:after
+{
+  -webkit-font-smoothing: antialiased;
+  content:"\f0dd";
+  font-family: "FontAwesome";
+  font-size: 0.8em;
+  opacity: 0.9;
+}
+header #logo
+{
+  width: 49%;
+}
+header #logo img
+{
+  width: 150px;
+}
+
+.btn, .btn a i, .btn a i:hover, .btn a i:focus, .btn a i:visited
+{
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#bienvenida
+{
+  display: none;
+}
+#bienvenida h3,
+{
+  color: #878787;
+  text-align: center;
+}
+#bienvenida p
+{
+  font-size: 0.9em;
+}
+#bienvenida p, #bienvenida #mensaje_registro
+{
+  text-align: center;
+}
+#bienvenida #mensaje_registro
+{
+  border-bottom: 3px solid #ccc;
+  border-radius: 5px;
+  display: block;
+  font-size: 0.8em;
+  padding-bottom: 0.5em;
+}
+#bienvenida #registro
+{
+  background: #F90;
+  border-bottom: 2px solid #FB0;
+  border-radius: 5px;
+  color: white;
+  display: block;
+  padding: 0.5em 0.2em;
+  text-align: center;
+}
+#bienvenida #titulo_aside
+{
+  background: rgb(160,205,87);
+  border-bottom: 2px solid rgb(130, 150, 0);
+  border-radius: 5px;
+  color: white;
+  display: block;
+  padding: 0.5em 0.2em;
+  text-align: center;
+}
+#contenido, #contenido_post
+{
+  margin: 0.5em;
+}
+#contenido_post .post
+{
+  background: white;
+  border-bottom: 3px solid #f80;
+  border-radius: 0.3em;
+  margin: 0 0 1em 0;
+  padding: 2em;
+  text-align: justify;
+}
+#contenido .post
+{
+  background: white;
+  border-bottom: 3px solid #f80;
+  border-radius: 0.3em;
+  margin: 0 0 1em 0;
+  padding: 1em;
+  text-align: justify;
+}
+#contenido .post .post_autor, #contenido_post .post .post_autor
+{
+
+}
+#contenido .post p, #contenido_post .post p
+{
+
+}
+#contenido .post .post_datos, #contenido_post .post .post_datos
+{
+  text-align: right;
+}
+#contenido .post .post_datos .post_tags, #contenido_post .post .post_datos .post_tags
+{
+  border-radius: 0.3em;
+  color: white;
+  float: left;
+  font-weight: bold;
+  padding: 0.2em 0.5em;
+}
+#contenido .post .post_datos .post_stars, #contenido_post .post .post_datos .post_stars
+{
+  background: #474747;
+  border-bottom: 2px solid #878787;
+  border-radius: 0.3em;
+  color: white;
+  font-weight: bold;
+  margin: 0 0 0 1em;
+  padding: 0.2em 0.5em;
+}
+#contenido .post .post_datos .save_stars:after, #contenido_post .post .post_datos .save_stars:after
+{
+  -webkit-font-smoothing: antialiased;
+  color: #F85;
+  content: "\f005";
+  font-family: "FontAwesome";
+  font-size: 1.5em;
+  margin: 0 1em;
+  opacity: 0.8;
+  position: relative;
+  text-decoration: none;
+  text-shadow: 1px 1px 1px #474747;
+}
+#contenido .post .post_image_tag, #contenido_post .post .post_image_tag
+{
+  float: left;
+  margin: 0 1em 0 0;
+  padding: 3px;
+  text-align: center;
+}
+#contenido .post .post_image_tag a img, #contenido_post .post .post_image_tag a img
+{
+  /*height: 170px;*/
+  width: 100%;
+  
+}
+#contenido .post .post_paragraph, #contenido_post .post .post_paragraph
+#contenido .post .post_paragraph, #contenido_post .post .post_paragraph
+{
+  text-align: justify;
+}
+#contenido .post .post_body img, #contenido_post .post .post_body img
+#contenido .post .post_body img, #contenido_post .post .post_body img
+{
+  width: 300px;
+  margin: 15px;
+}
+
+#contenido .post .post_title, #contenido_post .post .post_title
+{
+  font-size: 1.3em;
+  font-style: italic;
+  font-weight: bold;
+  margin-top: 0;
+  padding:0 0.5em 0 0.5em;
+  text-shadow: 0px 1px 1px #333;
+}
+#contenido .post .post_title a, #contenido_post .post .post_title a
+{
+  color:#ff8800;
+  text-decoration: none;
+}
+#wrapper
+{
+  background: #EFEFEF;
+  border-radius: 0.3em;
+  margin-bottom: 0.5em;
+  padding-bottom: 0.2em;
+}
+
+/*----------------*/
+/* Social Buttons */
+/*----------------*/
+#social_buttons
+{
+  display: none;
+}
+#social_buttons #twitter:after
+{
+  -moz-osx-font-smoothing:grayscale
+  -webkit-font-smoothing:antialiased;
+  color: #13BAEA;
+  content: "\f099";
+  font-family: "FontAwesome";
+  font-size: 2em;
+  text-decoration: none;
+  text-shadow: 1px 1px 1px #474747;
+}
+#social_buttons #facebook:after
+{
+    -moz-osx-font-smoothing:grayscale
+  -webkit-font-smoothing:antialiased;
+  content: "\f09a";
+  font-family: "FontAwesome";
+  font-size: 2em;
+  text-decoration: none;
+  text-shadow: 1px 1px 1px #474747;
+color: #2664BF;
+}
+#social_buttons #gplus:after
+{
+  -moz-osx-font-smoothing:grayscale
+  -webkit-font-smoothing:antialiased;
+  color: #C83F11;
+  content: "\f0d5";
+  font-family: "FontAwesome";
+  font-size: 2em;
+  text-decoration: none;
+  text-shadow: 1px 1px 1px #474747;
+}
+#social_buttons #suscribete:after
+{
+  -moz-osx-font-smoothing:grayscale
+  -webkit-font-smoothing:antialiased;
+  content: "\f0e0";
+  font-family: "FontAwesome";
+  font-size: 2em;
+  text-decoration: none;
+  text-shadow: 1px 1px 1px #474747;
+}
+
+
+/*------------*/
+/* Text Align */
+/*------------*/
+.text-left {
+  text-align: left;
+}
+.text-right {
+  text-align: right;
+}
+.text-center {
+  text-align: center;
+}
+.text-justify {
+  text-align: justify;
+}
+
+/*------------*/
+/* Tags Style */
+/*------------*/
+.Noticias, .Anime, .Manga, .Juegos, .Japón, .Cine, .Tecnologiía, .Cultura
+{
+  padding: 20px;
+  border-radius: 5px;
+}
+.tags_Noticias, .tags_Anime, .tags_Manga, .tags_Juegos, .tags_Japón, .tags_Cine, .tags_Tecnología, .tags_Cultura
+{
+  -moz-border-radius: 5px 5px 5px 5px;
+  -ms-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  color:#fff;
+  float: left;
+  height: 55px;
+  margin-right: 5px;
+  width: 50px;
+}
+.tags_Noticias
+{
+  background:url(/../assets/images/tags/news.gif) no-repeat center #77b800;
+  border-bottom: 2px solid #77a000;
+}
+.Noticias_tag
+{
+  background: #77b800;
+  border-bottom: 2px solid #77a000;
+}
+.tags_Anime
+{
+  background:url(/../assets/images/tags/anime.gif) no-repeat center #ff9900;
+  border-bottom: 2px solid #ff7700;
+}
+.Anime_tag
+{
+  background: #ff9900;
+  border-bottom: 2px solid #ff7700;
+}
+.tags_Manga
+{
+  background:url(/../assets/images/tags/manga.gif) no-repeat center #e22b00;
+  border-bottom: 2px solid #e22200;
+}
+.Manga_tag
+{
+  background: #e22b00;
+  border-bottom: 2px solid #e22200;
+}
+.tags_Juegos
+{
+  background:url(/../assets/images/tags/juegos.gif) no-repeat center #a500e2;
+  border-bottom: 2px solid #5b11c7;
+}
+.Juegos_tag
+{
+  background: #a500e2;
+  border-bottom: 2px solid #5b11c7;
+}
+.tags_Japón
+{
+  background:url(/../assets/images/tags/japon.gif) no-repeat center #e22b00;
+  border-bottom: 2px solid #e22200;
+
+}
+.Japón_tag
+{
+  background: #e22b00;
+  border-bottom: 2px solid #e22200;
+}
+.tags_Cine
+{
+  background:url(/../assets/images/tags/cine.gif) no-repeat center #4a4a4a;
+  border-bottom: 2px solid #2a2a2a;
+}
+.Cine_tag
+{
+  background: #4a4a4a;
+  border-bottom: 2px solid #2a2a2a;
+}
+.tags_Tecnología
+{
+  background:url(/../assets/images/tags/tecnologia.gif) no-repeat center #5b86c7;
+  border-bottom: 2px solid #4a81b6;
+}
+.Tecnología_tag
+{
+  background: #5b86c7;
+  border-bottom: 2px solid #4a81b6;
+}
+.tags_Cultura
+{
+  background:url(/../assets/images/tags/cultura.gif) no-repeat center #e22b00;
+  border-bottom: 2px solid #e20000;
+}
+.Cultura_tag
+{
+  background: #e22b00;
+  border-bottom: 2px solid #e20000;
+}
+
+/*------------------*/
+/* Items Post Style */
+/*------------------*/
+.nota 
+{
+  background: #FBF8B7 url(http://www.coanime.net/images/quotes.png) 0.3em 0.3em no-repeat;
+  font-family: Arial;
+  font-size: 0.8em;
+  font-style: italic;
+  margin-bottom: -20px;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-top: -20px;
+  padding: 23px;
+  text-align: justify;
+}
+
+.nota legend 
+{
+  /*margin-left: 500px;*/
+  background:#fff;
+  border-bottom: 1px solid #FBDFB7;
+  border-left: 1px solid #FBDFB7;
+  border-right: 1px solid #FBDFB7;
+  font-size: 0.9em;
+  font-weight: 700;
+  padding: 5px;
+}
+.sinopsis 
+{
+  background: #f2f2f2 url(http://www.coanime.net/images/quotes.png) 0.3em 0.3em no-repeat;
+  font-family: Arial;
+  font-size: 0.8em;
+  font-style: italic;
+  margin-bottom: -5px;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-top: -5px;
+  padding: 15px 15px 15px 15px;
+  text-align: justify;
+}
+
+.sinopsis legend 
+{
+  /*margin-left: 550px;*/
+  background:#fff;
+  border-bottom: 1px solid #CCCCCC;
+  border-left: 1px solid #CCCCCC;
+  border-right: 1px solid #CCCCCC;
+  font-size: 0.9em;
+  font-weight: 700;
+  padding: 5px;
+}
+.radius
+{
+  border-radius: 5px;
+}
+.youtube 
+{
+  text-align: center;
+    padding-bottom: 56.25%;
+    padding-top: 30px; height: 0; overflow: hidden;
+    position: relative;
+}
+.youtube embed 
+{
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+/*-------------------*/
+/* Sign In & Sign Up */
+/*-------------------*/
+.login-wrapper {  
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.login-wrapper .form-signin {
+  max-width: 380px;
+  padding: 15px 35px 45px;
+  margin: 0 auto;
+  background-color: #fff;
+  border: 1px solid rgba(0,0,0,0.1);  
+}
+.login-wrapper .form-signin-heading,
+.login-wrapper .checkbox {
+    margin-bottom: 30px;
+}
+
+.login-wrapper .checkbox {
+    font-weight: normal;
+}
+
+.login-wrapper .form-control {
+  position: relative;
+  font-size: 16px;
+  height: auto;
+  padding: 10px;
+  @include box-sizing(border-box);
+  &:focus {
+    z-index: 2;
+  }
+}
+/* Credit to bootsnipp.com for the css for the color graph */
+.colorgraph {
+  height: 5px;
+  border-top: 0;
+  background: #c4e17f;
+  border-radius: 5px;
+  background-image: -webkit-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+  background-image: -moz-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+  background-image: -o-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+  background-image: linear-gradient(to right, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+}
+
+      
+pre {
+    tab-size: 7;
+}
+
+@media screen and (max-width: 765px) {
+    .side-collapse-container{
+        width:100%;
+        position:relative;
+        left:0;
+        transition:left .5s;
+    }
+    .side-collapse-container.out{
+        left:200px;
+    }
+    .side-collapse {
+        top:65px;
+        bottom:0;
+        left:0;
+        width:200px;
+        position:fixed;
+        overflow:hidden;
+        transition:width .5s;
+    }
+    .side-collapse.in {
+        width:0;
+    }
+    .dropdown-menu > li > a
+    {
+      color: #ffffff;
+    }
+    .navbar-inverse .navbar-toggle {
+      border-color: #ff8800;
+    }
+}

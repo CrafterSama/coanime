@@ -1,0 +1,129 @@
+@media screen and (max-width: 260px){
+	header #user_avatar img
+	{
+		display: none;
+	}
+}
+@media screen and (max-width: 319px){
+	#contenido .post .post_autor,
+	#contenido_post .post .post_autor,
+	#contenido .post .post_date,
+	#contenido_post .post .post_date,
+	#contenido .post .post_image,
+	#contenido_post .post .post_image,
+	#contenido .post .post_paragraph
+	#contenido_post .post .post_paragraph
+	{
+		display: none;
+	}
+	#contenido .post
+	#contenido_post .post
+	{
+		padding: 0.5em;
+	}
+	#contenido .post .post_datos,
+	#contenido_post .post .post_datos,
+	#contenido .post .post_datos .post_tags,
+	#contenido_post .post .post_datos .post_tags,
+	#contenido .post .post_datos .post_stars,
+	#contenido_post .post .post_datos .post_stars,
+	#contenido .post .post_title a
+	#contenido_post .post .post_title a
+	{
+		font-size: 0.9em;
+	}
+}
+@media screen and (max-width: 370px){
+	header
+	{
+		margin: 0;
+	}
+}
+@media screen and (max-width: 765px) {
+    .side-collapse-container{
+        width:100%;
+        position:relative;
+        left:0;
+        transition:left .5s;
+    }
+    .side-collapse-container.out{
+        left:200px;
+    }
+    .side-collapse {
+        top:0;
+        bottom:0;
+        left:0;
+        width:200px;
+        position:fixed;
+        overflow:hidden;
+        transition:width .5s;
+    }
+    .side-collapse.in {
+        width:0;
+    }
+    .dropdown-menu > li > a
+    {
+      color: #ffffff;
+    }
+    .navbar-inverse .navbar-toggle {
+      border-color: #ff8800;
+    }
+}
+@media screen and (min-width: 768px){
+	body
+	{
+		margin: 0 auto;
+		max-width: 1020px;
+	}
+	#bienvenida
+	{
+		display: block;
+		float: right;
+		margin-right: 0.5em;
+		width: 27.5%;
+	}
+	#contenido
+	{
+		width: 70%;
+	}
+	#social_buttons
+	{
+		display: block;
+		text-align: center;
+		width: 100%;
+	}
+	#social_buttons a
+	{
+		display: inline-block;
+		margin-right: 0.2em;
+		padding: 0.3em;
+		text-align: center;
+		vertical-align: top;
+	}
+}
+@media only screen and (min-width: 768px) and (max-width: 1019px){
+	#bienvenida
+	{
+		display: block;
+		float: right;
+		width: 26%;
+	}
+}
+/* Responsive a partir de 1020px */
+@media only screen and (min-width: 1020px){
+	footer
+	{
+		border-radius: 5px;
+	}
+	header
+	{
+		border-radius: 5px;
+		margin: 0 0 0.5em 0;
+	}
+	div.navbar-inverse
+	{
+		border-top-left-radius: 5px;
+		border-top-right-radius: 5px;
+	}
+}
+
