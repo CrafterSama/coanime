@@ -240,6 +240,14 @@ nav ul #adminweb
 	margin: 15px;
 }
 
+#contenido .post .post_body img, #contenido_post .post .post_body .first-image 
+{
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+
 #contenido .post .post_title, #contenido_post .post .post_title
 {
 	font-size: 1.3em;
@@ -357,83 +365,67 @@ color: #2664BF;
 .tags_Noticias
 {
 	background:url(/../assets/images/tags/news.gif) no-repeat center #77b800;
-	border-bottom: 2px solid #77a000;
 }
 .Noticias_tag
 {
 	background: #77b800;
-	border-bottom: 2px solid #77a000;
 }
 .tags_Anime
 {
 	background:url(/../assets/images/tags/anime.gif) no-repeat center #ff9900;
-	border-bottom: 2px solid #ff7700;
 }
 .Anime_tag
 {
 	background: #ff9900;
-	border-bottom: 2px solid #ff7700;
 }
 .tags_Manga
 {
 	background:url(/../assets/images/tags/manga.gif) no-repeat center #e22b00;
-	border-bottom: 2px solid #e22200;
 }
 .Manga_tag
 {
 	background: #e22b00;
-	border-bottom: 2px solid #e22200;
 }
 .tags_Juegos
 {
 	background:url(/../assets/images/tags/juegos.gif) no-repeat center #a500e2;
-	border-bottom: 2px solid #5b11c7;
 }
 .Juegos_tag
 {
 	background: #a500e2;
-	border-bottom: 2px solid #5b11c7;
 }
 .tags_Japón
 {
 	background:url(/../assets/images/tags/japon.gif) no-repeat center #e22b00;
-	border-bottom: 2px solid #e22200;
 
 }
 .Japón_tag
 {
 	background: #e22b00;
-	border-bottom: 2px solid #e22200;
 }
 .tags_Cine
 {
 	background:url(/../assets/images/tags/cine.gif) no-repeat center #4a4a4a;
-	border-bottom: 2px solid #2a2a2a;
 }
 .Cine_tag
 {
 	background: #4a4a4a;
-	border-bottom: 2px solid #2a2a2a;
 }
 .tags_Tecnología
 {
 	background:url(/../assets/images/tags/tecnologia.gif) no-repeat center #5b86c7;
-	border-bottom: 2px solid #4a81b6;
 }
 .Tecnología_tag
 {
 	background: #5b86c7;
-	border-bottom: 2px solid #4a81b6;
 }
 .tags_Cultura
 {
 	background:url(/../assets/images/tags/cultura.gif) no-repeat center #e22b00;
-	border-bottom: 2px solid #e20000;
 }
 .Cultura_tag
 {
 	background: #e22b00;
-	border-bottom: 2px solid #e20000;
 }
 
 /*------------------*/
@@ -749,4 +741,28 @@ background-size:19px!important;
 	color: #ffffff;
 	border-bottom: 3px #801318 solid;
 	padding: 0.5em;
+}
+
+
+/*---------------------------*/
+/*  Arreglos en los estilos  */
+/*---------------------------*/
+
+.navbar-inverse {
+    background-color: #f90;
+    border-color: #f90;
+    border: none;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #fff;
+}
+
+fieldset legend {
+    text-align: left;
+}
+
+fieldset {
+    border: none;
+    font-style: italic;
 }
