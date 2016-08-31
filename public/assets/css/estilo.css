@@ -768,10 +768,25 @@ fieldset {
     font-style: italic;
 }
 
+
+/*---------------------------*/
+/* Arreglos en la paginacion */
+/*---------------------------*/
+
+.pagination>li>a, .pagination>li>span {
+	color: #f90;
+}
+
 .pagination>.active>a, .pagination>.active>span, .pagination>.active>a:hover, .pagination>.active>span:hover, .pagination>.active>a:focus, .pagination>.active>span:focus {
     z-index: 2;
     color: #fff;
     background-color: #f90;
     border-color: #f90;
     cursor: default;
+}
+
+.pagination>li>a:hover, .pagination>li>span:hover, .pagination>li>a:focus, .pagination>li>span:focus {
+    color: #f90;
+    background-color: #eee;
+    border-color: #ddd;
 }
