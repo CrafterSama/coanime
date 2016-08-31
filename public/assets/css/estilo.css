@@ -10,7 +10,7 @@
 }
 a, a:hover,a:focus,a:visited
 {
-	color: #f90;
+	color: #f0ad4e;
 	text-decoration: none;
 }
 a.btn, a.btn:hover,a.btn:focus,a.btn:visited
@@ -65,7 +65,7 @@ header #user_avatar
 }
 header #user_avatar figcaption
 {
-	background: #f90;
+	background: #f0ad4e;
 	border-bottom-right-radius: 0.3em;
 	border-top-right-radius: 0.3em;
 	float: right;
@@ -132,7 +132,7 @@ nav ul #adminweb
 }
 #bienvenida #registro
 {
-	background: #F90;
+	background: #f0ad4e;
 	border-radius: 5px;
 	color: white;
 	display: block;
@@ -253,7 +253,7 @@ nav ul #adminweb
 	margin-top: 0;
 	padding:0 0.5em 0 0.5em;
 	text-shadow: 0px 1px 1px #333;
-	color: #f90;
+	color: #f0ad4e;
 }
 #contenido .post .post_title a, #contenido_post .post .post_title a
 {
@@ -370,11 +370,11 @@ color: #2664BF;
 }
 .tags_Anime
 {
-	background:url(/../assets/images/tags/anime.gif) no-repeat center #ff9900;
+	background:url(/../assets/images/tags/anime.gif) no-repeat center #f0ad4e;
 }
 .Anime_tag
 {
-	background: #ff9900;
+	background: #f0ad4e;
 }
 .tags_Manga
 {
@@ -475,7 +475,7 @@ fieldset legend
 
 .dropdown-menu {
     background-clip: padding-box;
-    background: #ff9900;
+    background: #f0ad4e;
     border-radius: 4px;
     border: 1px solid rgba(0, 0, 0, 0.15);
     box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.176);
@@ -496,7 +496,7 @@ fieldset legend
 .dropdown-menu > li > a:focus, 
 .dropdown-menu > li > a:visited 
 {
-	background: #ff9900;
+	background: #f0ad4e;
 	color: #fff;
 }
 
@@ -747,8 +747,8 @@ background-size:19px!important;
 /*---------------------------*/
 
 .navbar-inverse {
-    background-color: #f90;
-    border-color: #f90;
+    background-color: #f0ad4e;
+    border-color: #f0ad4e;
     border: none;
 }
 
@@ -771,19 +771,19 @@ fieldset {
 /*---------------------------*/
 
 .pagination>li>a, .pagination>li>span {
-	color: #f90;
+	color: #f0ad4e;
 }
 
 .pagination>.active>a, .pagination>.active>span, .pagination>.active>a:hover, .pagination>.active>span:hover, .pagination>.active>a:focus, .pagination>.active>span:focus {
     z-index: 2;
     color: #fff;
-    background-color: #f90;
-    border-color: #f90;
+    background-color: #f0ad4e;
+    border-color: #f0ad4e;
     cursor: default;
 }
 
 .pagination>li>a:hover, .pagination>li>span:hover, .pagination>li>a:focus, .pagination>li>span:focus {
-    color: #f90;
+    color: #f0ad4e;
     background-color: #eee;
     border-color: #ddd;
 }
