@@ -43,7 +43,7 @@ class Post extends Eloquent {
 	{
 		$doc = new DOMDocument(); 
 		$doc->loadHTML($string);
-	//	print_r($string);
+		// print_r($string);
 		$imageTags = $doc->getElementsByTagName('img'); 
 		foreach($imageTags as $tag) 
 		{ 

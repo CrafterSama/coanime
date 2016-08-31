@@ -47,17 +47,17 @@
 			</p>
 			<hr />
 			<p class="post_datos">
-				<a class="post_tags {{ Category::getName($post->category_id) }}_tag" href="#">{{ Category::getName($post->category_id) }}</a>
+				<a class="btn post_tags {{ Category::getName($post->category_id) }}_tag" href="#">{{ Category::getName($post->category_id) }}</a>
 				@if (Auth::check() and Auth::user()->role_id == 1)
-					<a href="/dashboard/posts/editar/{{ $post->id }}" class="btn btn-warning btn-xs"><i class="fa fa-edit"></i></a>					
-					<a href="/dashboard/posts/borrar/{{ $post->id }}" class="btn btn-danger btn-xs"><i class="fa fa-trash-o"></i></a> - 
+					<a href="/dashboard/posts/editar/{{ $post->id }}" class="btn btn-warning"><i class="fa fa-edit"></i></a>					
+					<a href="/dashboard/posts/borrar/{{ $post->id }}" class="btn btn-danger"><i class="fa fa-trash-o"></i></a> - 
 				@endif
 				@if (is_null($post->post_created_at))
 					<span class="post_date"><strong>{{ Post::getDate(strtotime($post->created_at,0)) }}</strong></span>
 				@else
 					<span class="post_date"><strong>{{ Post::getDate($post->post_created_at) }}</strong></span>
 				@endif
-				<a class="post_stars" href="#">355</a>
+				<a class="btn post_stars" href="#">355</a>
 				<a class="save_stars" href="#"></a>
 			</p>
 		</article>

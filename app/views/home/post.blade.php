@@ -28,13 +28,13 @@
 			</p>
 			<hr />
 			<p class="post_datos">
-				<a class="post_tags {{ Category::getName($post->category_id) }}_tag" href="#"><i class="fa fa-tag"></i>&nbsp;&nbsp;{{ Category::getName($post->category_id) }}</a>
+				<a class="btn post_tags {{ Category::getName($post->category_id) }}_tag" href="#"><i class="fa fa-tag"></i>&nbsp;&nbsp;{{ Category::getName($post->category_id) }}</a>
 				@if (Auth::check() and Auth::user()->role_id == 1)
-					<a href="/dashboard/posts/editar/{{ $post->id }}" class="btn btn-warning btn-sm"><i class="fa fa-pencil"></i></a>					
-					<a href="/dashboard/posts/borrar/{{ $post->id }}" class="btn btn-danger btn-sm"><i class="fa fa-trash-o" onclick="return confirm('¿Esta seguro que desea borrar este Post?');"></i></a>					
+					<a href="/dashboard/posts/editar/{{ $post->id }}" class="btn btn-warning"><i class="fa fa-pencil"></i></a>					
+					<a href="/dashboard/posts/borrar/{{ $post->id }}" class="btn btn-danger"><i class="fa fa-trash-o" onclick="return confirm('¿Esta seguro que desea borrar este Post?');"></i></a>					
 				@endif
 
-				<a class="post_stars" href="#">355</a>
+				<a class="btn post_stars" href="#">355</a>
 				<a class="save_stars" href="#"></a>
 			</p>
 			{{-- <div class="autor row-fluid">
