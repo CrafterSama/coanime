@@ -765,7 +765,7 @@ fieldset {
     font-style: italic;
 }
 
-.btn-warning:hover, .btn-warning:focus, .btn-warning:active, .btn-warning.active, .open .dropdown-toggle.btn-warning {
+.btn-warning, .btn-warning:hover, .btn-warning:focus, .btn-warning:active, .btn-warning.active, .open .dropdown-toggle.btn-warning {
     color: #fff;
     background-color: #ff9600;
     border-color: #d58512;
