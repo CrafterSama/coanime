@@ -133,7 +133,6 @@ nav ul #adminweb
 #bienvenida #registro
 {
 	background: #F90;
-	border-bottom: 2px solid #FB0;
 	border-radius: 5px;
 	color: white;
 	display: block;
@@ -143,7 +142,6 @@ nav ul #adminweb
 #bienvenida #titulo_aside
 {
 	background: rgb(160, 205, 87);
-	border-bottom: 2px solid rgb(130, 150, 0);
 	border-radius: 5px;
 	color: white;
 	display: block;
@@ -195,7 +193,6 @@ nav ul #adminweb
 #contenido .post .post_datos .post_stars, #contenido_post .post .post_datos .post_stars
 {
 	background: #474747;
-	border-bottom: 2px solid #878787;
 	border-radius: 0.3em;
 	color: white;
 	font-weight: bold;
