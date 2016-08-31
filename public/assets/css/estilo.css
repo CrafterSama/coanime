@@ -771,6 +771,12 @@ fieldset {
     border-color: #ff9600;
 }
 
+.btn-danger, .btn-danger:hover, .btn-danger:focus, .btn-danger:active, .btn-danger.active, .open .dropdown-toggle.btn-danger {
+    color: #fff;
+    background-color: #bc0000;
+    border-color: #bc0000;
+}
+
 /*---------------------------*/
 /* Arreglos en la paginacion */
 /*---------------------------*/
